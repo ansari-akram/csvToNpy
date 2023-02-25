@@ -1,0 +1,4 @@
+list = [[0.9803921568627451, 'i am looking for convention center fact sheet in pdf', 'https://www.zu.ac.ae/main/files/contents/convention_cener/pdf/FACT%20SHEET.pdf'], [0.2826086956521739, 'Is there any Animation design course at ZU', 'https://www.zu.ac.ae/main/en/colleges/colleges/__college_of_arts_and_creative_enterprises/Academic_programs/Animation.aspx'], [0.2535211267605634, 
+'how to get it support', 'IT Support can be contacted through following channels\r\nRegister your IT requests or issues by logging to the portal \r\nhttps://sanad.zu.ac.ae\r\nSend an email to IT.ServiceDesk@zu.ac.e\r\nContact through phone at 02 599 3666 for Abu Dhabi and 04 402 \r\n1777 for Dubai\r\n'], [0.13559322033898305, 'eservices', 'https://eservices.zu.ac.ae/']]
+
+print([i for i in list if i[0] >= 0.75])
